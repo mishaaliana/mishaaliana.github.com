@@ -1,0 +1,174 @@
+*
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: #000604;
+    background-position: center;
+    text-align: center; /*For older browsers*/
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+h2
+{
+    font-size: 28px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    font-family: Cambria, serif;
+    font-variant:small-caps;
+    line-height: 22px;
+    text-align: center;
+    text-shadow: 0px 1px 1px #000;
+
+}
+
+h2 .smalltxt
+{
+    font-variant:normal;
+    font-style:italic;
+    font-size: 20px;
+    text-shadow: 0px 1px 1px #000;
+    
+}
+
+h3
+{
+    font-style:italic;
+    letter-spacing: 1px;
+    font-family: Cambria, serif;
+    margin-bottom: 8px;
+    text-shadow: 0px 1px 1px #000;
+}
+
+p, ul
+{
+    line-height: 22px;
+}
+
+#header
+{
+   background-image:url("../images/header.jpg"); 
+   height: 385px;
+   background-position: center; 
+   background-repeat:no-repeat;
+}
+
+#wrap
+{
+   width: 1044px;
+   margin: auto;
+   position: relative;
+   background-image:url("../images/bg.gif");
+}
+
+
+#nav
+{
+   position: relative;
+   top: -147px;
+   font-size: 16px;
+   
+}
+
+#nav ul li
+{
+   display: inline;
+   padding: 0px 20px;
+}
+
+#nav ul li a
+{
+    text-decoration: none;
+    color: #000604;
+  
+   
+}
+
+#aboutme #content
+{
+    height: 350px;
+}
+
+#content
+{
+    margin: auto;
+    margin-top: -130px;
+    margin-bottom: -60px;
+    text-align: left;
+    width: 575px;
+    color: #e2e3e4;
+
+
+}
+
+#content a
+{
+    color: #5aaf83;
+}
+
+#content a:hover
+{
+    font-size: 18px;
+}
+
+#content img
+{
+    float: right;
+    padding-left: 20px;
+
+}
+
+#content ul 
+{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+#resume #content p
+{
+    margin-bottom: 20px;
+   
+}
+
+#endimg
+{
+    background-image:url("../images/footer.gif"); 
+    background-position: center; 
+    background-repeat:no-repeat;
+    height: 185px; 
+}
+
+#footer
+{
+
+    font-size: 12px;
+    color: #a5a5a5;
+  
+}
+
+#footer p
+{
+    margin-top: -70px;
+   
+}
+
+#footer a
+{
+    color: #a5a5a5;
+}
+
+#footer ul li
+{
+    display:inline;
+}
+
+#me
+{
+    position: relative;
+}
